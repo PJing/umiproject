@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'umi';
-import { Button } from 'antd-mobile';
+import { Button, NavBar, Icon } from 'antd-mobile';
+import {history} from 'umi'
 function Example() {
   const [count, setCount] = useState(0);
   const [age, setAge] = useState(10);
@@ -11,6 +11,14 @@ function Example() {
  
   return (
     <div>
+      <NavBar
+      mode="light"
+      icon={<Icon type="left" />}
+      onLeftClick={history.goBack}
+      rightContent={[
+        <Icon key="1" type="ellipsis" />,
+      ]}
+    >NavBar</NavBar>
       点击次数{count}
       <Button
         onClick={() => {

@@ -21,11 +21,13 @@
   "dependencies": {
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.18",
+    "axios": "^0.19.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "umi": "^3.0.18",
+    "uuid": "^7.0.3",
     "yorkie": "^2.0.0"
   }
 }
