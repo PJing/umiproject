@@ -19,10 +19,16 @@
     ]
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.50",
+    "@umijs/hooks": "^1.9.2",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.18",
     "axios": "^0.19.2",
+    "js-cookie": "^2.2.1",
     "lint-staged": "^10.0.7",
+    "moment": "^2.24.0",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
